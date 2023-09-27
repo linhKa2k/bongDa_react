@@ -1,0 +1,67 @@
+.match_result {
+  border: 1px solid #ccc;
+  .main-card {
+    .card-header {
+      .match_result-title {
+        width: 95vw;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding: 0.25rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+    }
+    .card-content {
+      width: 100%;
+    }
+  }
+  .match_result-container {
+    display: flex;
+    justify-content: space-evenly;
+    .main-card {
+      border: 1px solid #ccc;
+      margin: 0 0.125rem;
+    }
+    .card-center {
+      font-size: 0.6rem;
+    }
+    .card-footer {
+      font-weight: bold;
+      font-size: 0.75rem;
+    }
+  }
+  .match_result-total_points {
+    width: 70vw;
+    padding-top: 0.5rem;
+    .ant-typography {
+      border: 1px solid #ccc;
+      padding: 0.225rem;
+      font-weight: bold;
+    }
+  }
+  .card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    .match_result-country {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+      .ant-image .ant-image-img {
+        width: 2.775rem;
+        height: 2rem;
+      }
+      .ant-typography {
+        font-size: 0.6rem;
+        font-weight: bold;
+      }
+    }
+    .ant-btn {
+      border-radius: 0;
+    }
+    .ant-row {
+      align-items: center;
+    }
+  }
+}

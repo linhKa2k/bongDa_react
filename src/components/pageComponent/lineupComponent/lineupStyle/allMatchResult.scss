@@ -1,0 +1,57 @@
+.all_match_result {
+  .all_match_result-title {
+    font-weight: bold;
+    padding: 0.3rem 0;
+  }
+  .match_result {
+    border: 1px solid #ccc;
+    width: 99vw;
+    padding-top: 0.3rem;
+    margin-bottom: 10px;
+    .main-card {
+      .card-content {
+        width: 100%;
+      }
+    }
+    .match_result-container {
+      display: flex;
+      justify-content: space-evenly;
+      .main-card {
+        border: 1px solid #ccc;
+        margin: 0 0.125rem;
+      }
+      .card-center {
+        font-size: 0.6rem;
+      }
+      .card-footer {
+        font-weight: bold;
+        font-size: 0.75rem;
+      }
+    }
+    .match_result-total_points {
+      width: 70vw;
+      padding-top: 0.5rem;
+      .ant-typography {
+        border: 1px solid #ccc;
+        padding: 0.225rem;
+      }
+    }
+    .card-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      .match_result-country {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        .ant-typography {
+          font-size: 0.6rem;
+        }
+      }
+      .ant-row {
+        align-items: center;
+      }
+    }
+  }
+}

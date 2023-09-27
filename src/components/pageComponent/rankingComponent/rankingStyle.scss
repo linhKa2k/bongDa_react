@@ -1,0 +1,129 @@
+body {
+    p {
+        margin: 0px
+    }
+
+    background-color: #F5F5F5;
+}
+
+.form-mainRanking {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+    .top-ranking {
+        display: flex;
+        flex-direction: column;
+
+        .title-topRanking {
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1.8125rem;
+            text-align: center;
+            color: #000;
+            padding: 0.3125rem
+        }
+        
+        .slider-topRanking {
+            .abc {
+                .ant-carousel :deep(.slick-slide) {
+                    text-align: center;
+                    height: 40px;
+                    line-height: 40px;
+                    background: #D9D9D9;
+                    overflow: hidden;
+                  }
+                  
+                  .ant-carousel :deep(.slick-arrow.custom-slick-arrow) {
+                    width: 25px;
+                    height: 25px;
+                    font-size: 25px;
+                    color: #000;
+                    opacity: 0.3;
+                    z-index: 1;
+                  }
+                  .ant-carousel :deep(.custom-slick-arrow:before) {
+                    display: none;
+                  }
+                  .ant-carousel :deep(.custom-slick-arrow:hover) {
+                    opacity: 0.5;
+                  }
+                  
+                  .ant-carousel :deep(.slick-slide h3) {
+                    color: #000;
+                  }
+            }
+        }
+
+    }
+
+
+
+
+    .footer-ranking {
+        .titleMyRank-bottomRanking {
+            font-weight: 700;
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            text-align: center;
+            color: #000;
+            padding: 0.9375rem;
+        }
+
+        .form-rating {
+            padding: 5px;
+
+            .title-ratingRanking {
+                display: flex;
+                padding: 10px;
+                background-color: #6B6B6B;
+                color: #fff;
+                font-weight: 700;
+                font-size: 1.5rem;
+                line-height: 1.75rem;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
+
+        .form-bottomRanking {
+            display: flex;
+            justify-content: space-around;
+            background-color: #D9D9D9;
+            padding: 5px;
+
+            .titleLeft-bottomRanking {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+                margin-left: 70px;
+
+                .title-myRewardBottom {
+                    font-weight: 700;
+                    font-size: 0.875rem;
+                    line-height: 1.0625rem;
+                    color: #000;
+                }
+
+                .title-myRatingBottom {
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: 1.1875rem;
+                    color: #000;
+                }
+
+            }
+
+            .icon-bottomRanking {
+                background-color: #8E8E8E;
+                border-radius: 50%;
+
+                .iconQuestion {
+                    font-size: 3.125rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

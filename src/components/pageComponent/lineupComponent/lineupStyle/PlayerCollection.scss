@@ -1,0 +1,53 @@
+.player_collection {
+  border: 1px solid #ccc;
+  margin-top: 1.25rem;
+  .card-header {
+    font-weight: bold;
+    .ant-row {
+      align-items: center;
+      .ant-select {
+        width: 11.25rem;
+      }
+      .ant-select-selection-item {
+        font-weight: bold;
+      }
+    }
+  }
+  .card-footer {
+    .player_collection-container {
+      border-top: 1px solid #ccc;
+      padding-top: 0.5rem;
+      .card_item {
+        border: 1px solid #ccc;
+        margin-bottom: 0.75rem;
+        .card-footer,
+        .card-center {
+          font-weight: bold;
+          font-size: 0.75rem;
+        }
+        .card-center {
+          border-top: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+        }
+      }
+    }
+    .ant-row {
+      justify-content: space-evenly;
+    }
+    .main-card {
+      .card-header {
+        .ant-image {
+          width: 3.8rem;
+        }
+      }
+      .card-footer {
+        display: inline - block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 8ch;
+        padding: 0.125rem;
+      }
+    }
+  }
+}

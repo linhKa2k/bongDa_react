@@ -1,0 +1,42 @@
+.tab-container {
+    font-weight: bold;
+}
+
+.ant-tabs >.ant-tabs-nav .ant-tabs-nav-list, 
+.ant-tabs >div>.ant-tabs-nav .ant-tabs-nav-list {
+    width: 100%;
+}
+
+.ant-tabs >.ant-tabs-nav,
+.ant-tabs >div>.ant-tabs-nav {
+    margin-bottom: 0;
+}
+
+.ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab, 
+.ant-tabs-card.ant-tabs-top >div>.ant-tabs-nav .ant-tabs-tab {
+    width: 50%;
+    justify-content: center;
+    height: 3.625rem;
+    border-radius: 0rem;
+    border: none;
+}
+
+.ant-tabs-card >.ant-tabs-nav .ant-tabs-tab-active, 
+.ant-tabs-card >div>.ant-tabs-nav .ant-tabs-tab-active {
+    background-color: #8E8E8E;
+}
+
+.ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab, 
+.ant-tabs-card.ant-tabs-bottom >.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab, 
+.ant-tabs-card.ant-tabs-top >div>.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab, 
+.ant-tabs-card.ant-tabs-bottom >div>.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab {
+    margin-left: 0rem;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #000000;
+}
+
+.ant-tabs .ant-tabs-tab-btn {
+    font-size: 1.2rem;
+}

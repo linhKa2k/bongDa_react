@@ -1,0 +1,104 @@
+.collectionContainer {
+    height: 77vh;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.063rem solid #000000;
+  margin-bottom: 5px;
+
+  .img-player {
+    width: 3.875rem;
+    height: 4.063rem;
+    border-bottom: 0.063rem solid #000000;
+  }
+
+  .name-player-container {
+    width: 100%;
+  .name-player {
+    text-align: center;
+    width: 100%;
+    font-size: 0.688rem;
+    border-bottom: 0.063rem solid #000000;
+  }
+}
+  .name-owned {
+    font-size: 0.688rem;
+  }
+}
+
+.youngstar-container {
+  margin-top: 0.625rem;
+  border: 0.063rem solid #000000;
+
+  .card-header-container {
+    width: 100%;
+    .card-header {
+      width: 100%;
+    }
+  }
+
+  .title-header-container {
+    height: 2.438rem;
+
+    .title-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2.5rem;
+      font-size: 0.688rem;
+      background-color: #cacaca;
+      border-bottom: 0.063rem solid #000000;
+    }
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+
+    .card-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35%;
+    }
+
+    .content-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .img-reward {
+        width: 3.438rem;
+        height: 3.438rem;
+        margin-top: 5px;
+      }
+
+      .text-reward {
+        font-size: 0.75rem;
+      }
+
+      .btn-reward {
+        width: 7.188rem;
+        background-color: #6a6a6a;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+    }
+
+    .list-young-star {
+      width: 65%;
+      display: flex;
+      flex-direction: row;
+      border-right: 0.063rem solid #000000;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+  }
+}

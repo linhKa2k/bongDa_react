@@ -1,0 +1,22 @@
+.modal-content {
+    .form-contentTopRanking {
+        .form-topRanking {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #6B6B6B;
+            width: 16.875rem;
+            margin-top: 20px;
+            padding: 10px 10px 20px 10px;
+            border-radius: 20px;
+
+            .text-topRanking {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                margin-top: 20px;
+            }
+        }
+    }
+}

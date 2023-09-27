@@ -1,0 +1,36 @@
+.header-modal-rules {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title-header-rules {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .body-modal-rules {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    width: 270px;
+    border-radius: 10px;
+    background: #6c6c6c;
+    margin-bottom: 20px;
+    .info-body-rules {
+      color: white;
+      margin: 10px;
+      height: 55vh;
+      overflow: scroll;
+    }
+  }
+  .footer-modal-rules {
+    .btn-footer-modal {
+      border: 1px solid #000000;
+      border-radius: 20px;
+      width: 162px;
+      height: 5vh;
+      font-weight: 700;
+    }
+  }
+}

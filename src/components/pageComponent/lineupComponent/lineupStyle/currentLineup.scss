@@ -1,0 +1,26 @@
+.current_lineup {
+  border: 1px solid #ccc;
+  padding-bottom: 0.525rem;
+  margin-top: 1.25rem;
+  .ant-typography {
+    font-weight: bold;
+  }
+  .card-footer {
+    .current_lineup-container {
+      border-top: 1px solid #ccc;
+      padding-top: 0.5rem;
+      .card_item {
+        border: 1px solid #ccc;
+        .card-footer {
+          font-weight: bold;
+          font-size: 0.75rem;
+          border-top: 1px solid #ccc;
+        }
+      }
+    }
+    .ant-row {
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.mission-component{
+    height: 86vh;
+    .header-mission{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title-header{
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 50px;
+        }
+        .info-header{
+            font-size: 14px;
+            margin: 10px;
+            line-height: 19px;
+        }
+    }
+    .body-mission{
+        padding: 5px 5px;
+        .time-mission{
+            width: 100%;
+            color: white;
+            display: flex;
+            font-size: 14px;
+            justify-content: flex-end;
+            border-top-left-radius: 10px;
+                .info-time{
+                    text-align: center;
+                    border-top-left-radius: 10px;
+                    padding: 10px;
+                    width: 50%;
+                    background: rgba(90, 90, 90, 1);
+                }
+        }
+        .card-mission{
+            background: rgb(90, 90, 90);
+            border: 1px solid rgb(90, 90, 90);;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            .child-card-mission{
+                width: 300px;
+                padding: 10px 5px;
+            }
+        }
+    }
+}
+
+.card-mission-container{
+    border-radius: 10px;
+    height: 81px;
+    margin:10px 10px;
+    .img-card{
+        margin: 10px 5px;
+        width: 55px;
+        height: 55px;
+        border: 0;
+        border-radius: 10px;
+        .number-img{
+            position: absolute;
+            top: 50px;
+            left: 16px;
+            font-weight: bold;
+        }
+    }
+    .info-card{
+        margin-top: 5px;
+        margin-left: 6px;
+        width: 191px;
+        .info-title{
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 700;
+        }
+        .info-content{
+            position: inherit;
+            font-size:11px;
+            margin-top: 4px;
+            margin-bottom: 12px;
+            font-weight: 450;
+            line-height: 12px;
+        }
+        .info-limit{
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+    .button-card{
+        margin: 10px 8px;
+        .btn-card{
+            width: 60px;
+            height: 60px;
+            border: 0;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+    }
+}
+
+.modal-header-mission{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .title-header-modal{
+        .text-title-header{
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+    }
+    .info-header-modal{
+        text-align: center;
+        border: 1px solid;
+        width: 172px;
+        height: 30px;
+        .text-info-header{
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 15px;
+            margin-top: 7px;
+        }
+    }
+    .button-header-modal{
+        .btn-header-modal{
+            background: #939090;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            width: 172px;
+            height: 5vh;
+            font-weight: 700;
+        }
+    }
+}

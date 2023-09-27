@@ -1,0 +1,32 @@
+.modal-header-lineup {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  .title-header-lineup {
+    .text-title-header {
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.125rem;
+    }
+  }
+  .info-header-lineup {
+    .text-info-header {
+      font-weight: bold;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      border: 1px solid #000000;
+      padding: 0.75rem 2.2rem;
+    }
+  }
+  .button-header-lineup {
+    .btn-header-lineup {
+      border: 1px solid #000000;
+      border-radius: 1.25rem;
+      width: 20vh;
+      height: 5vh;
+      font-weight: bold;
+    }
+  }
+}

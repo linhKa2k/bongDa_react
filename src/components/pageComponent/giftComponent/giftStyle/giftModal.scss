@@ -1,0 +1,45 @@
+.modal-title-container {
+  text-align: center;
+  margin-bottom: 0.625rem;
+}
+
+.modal-title {
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.btn-modal {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3.125rem;
+  .ant-btn {
+    width: 8.75rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    background-color: #474747;
+    span {
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+.gift-modal-content {
+  text-align: center;
+  .modal-detail-container {
+    background-color: #ffffff;
+    border: solid 0.063rem #000000;
+    border-radius: 0.625rem;
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.25rem;
+    span {
+      font-weight: bold;
+    }
+  }
+}

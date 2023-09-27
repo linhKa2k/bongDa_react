@@ -1,0 +1,52 @@
+.top_bar {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  font-weight: bold;
+  height: 100%;
+  .align-center {
+    align-items: center;
+  }
+  .top_bar-center {
+    .ant-typography {
+      font-size: 0.75rem;
+    }
+    .top_bar-in_for {
+      display: flex;
+      flex-direction: column;
+    }
+    .top_bar-money {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid black;
+      border-radius: 0.5rem;
+      .ant-typography {
+        padding: 0 0 0 0.125rem;
+      }
+    }
+    .top_bar-plus_icon {
+      font-size: 0.75rem;
+    }
+  }
+  .top_bar-right {
+    .ant-btn {
+      width: 3.4rem;
+      height: 3.4rem;
+      margin-left: 0.45rem;
+    }
+    .top_bar-menu_icon {
+      font-size: 2rem;
+    }
+  }
+}
+.back_bar {
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  .ant-btn {
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-left: 0.1rem;
+  }
+}

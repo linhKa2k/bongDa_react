@@ -1,0 +1,56 @@
+.match_schedule {
+  .main-card {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    .card_border {
+      border: 1px solid #ccc;
+    }
+    .card_border-point {
+      border-top: 1px solid #ccc;
+    }
+    span {
+      font-weight: bold;
+      padding-top: 0.125rem;
+      padding-bottom: 0.125rem;
+      line-height: 0;
+    }
+    .match_schedule-title {
+      margin: 0 0 1px 0;
+    }
+    .ant-image .ant-image-img {
+      width: 3.575rem;
+      height: 2.525rem;
+    }
+    .card-content {
+      padding-top: 0.125rem;
+    }
+    .card-header {
+      width: 100vw;
+    }
+    .card-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      border-left: 1px solid #ccc;
+      .match_schedule-country {
+        display: flex;
+        justify-content: space-around;
+      }
+      .ant-row {
+        align-items: center;
+      }
+    }
+    .card-left {
+      .ant-btn {
+        padding: 0 8px;
+      }
+    }
+    .match_schedule-point--container {
+      margin-top: 0.25rem;
+      .match_schedule-point {
+        font-weight: bold;
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
